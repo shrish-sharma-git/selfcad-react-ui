@@ -1,4 +1,4 @@
-import Box from "./components/Box";
+import ProjectCard from "./components/ProjectCard";
 import Jumbotron from "./components/Jumbotron";
 import './app.css'
 
@@ -7,26 +7,8 @@ function App() {
     <div>
       <Jumbotron />
       <div className="project-section">
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
+        <ProjectCard />
+        
       </div>
     </div>
   );

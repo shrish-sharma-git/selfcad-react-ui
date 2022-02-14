@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     
-    margin: 400px 0 0 0;
+    margin: 400px 120px 0 120px;
 
     overflow: auto;
 

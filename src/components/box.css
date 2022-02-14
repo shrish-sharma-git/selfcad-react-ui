@@ -1,8 +1,36 @@
 .box {
-    padding: 25px;
-    background-color: blue;
+    /* padding: 25px;
     margin: 10px;
-    width: 100px;
-    height: 100px;
-    border: 1px solid red;
+    width: 165px;
+    height: 165px;
+    border: 1px solid black;
+    border-radius: 18px; */
+
+    position: relative;
+    width: 165px;
+    height: 165px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.folded-box {
+    border: 1px solid black;
+    background: linear-gradient(312deg, transparent 35px, rgb(255, 255, 255) 0);
+  color: #f3f3f3;
+}
+
+.folded-box::before {
+  content: "";
+  position: absolute;
+  
+  bottom: 0;
+  right: 0;
+  width: 49px;
+  height: 49px;
+  border: 1px solid black;
+
+  /* background: rgb(177, 177, 21); */
+  background: linear-gradient(to top left, transparent 50%, rgb(255, 255, 255) 0);
+  border-top-left-radius: 0.5rem;
 }
