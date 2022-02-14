@@ -1,6 +1,10 @@
 .project-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    margin: 400px 0 0 0;
+
     overflow: auto;
-    margin-top: 400px;
+
+    justify-items: center;
 }

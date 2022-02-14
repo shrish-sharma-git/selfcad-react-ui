@@ -27,18 +27,6 @@ function App() {
        <Box />
        <Box />
        <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
-       <Box />
       </div>
     </div>
   );
