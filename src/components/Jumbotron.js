@@ -21,23 +21,26 @@ const Jumbotron = () => {
                 </div>
             </div>
             <div className="header">
-                <h1>Welcome to SelfCAD Editor</h1>
-                <h6>New to 3D modelling?</h6>
-                <h6>Try out our Interactive Tutorials.</h6>
+                <p className='welcome-msg'>Welcome to SelfCAD Editor</p>
+                <p>New to 3D modelling?</p>
+                <p>Try out our Interactive Tutorials.</p>
             </div>
-            <div className="search-bar">
-                <input type={"text"} placeholder={"Find Project"} />
-                <button className='search-btn'>x</button>
-            </div>
-            <div className="sort-bar">
-                <label htmlFor="sorting">Sort by</label>
-                <select id='sorting'
-                    value={selected}
-                    onChange={(e) => setSelected(e.target.value)}
-                >
-                    <option value={"Newest"}>Newest</option>
-                    <option value={"Oldest"}>Oldest</option>
-                </select>
+            <div className="jumbo-content">
+                <div className="search-bar">
+                    <input type={"text"} placeholder={"Find Project"} className="search-input"/>
+                    <button className='search-btn'>x</button>
+                </div>
+                <div className="sort-bar">
+                    <span>Sort By:</span>
+                    <select id='sorting'
+                        value={selected}
+                        onChange={(e) => setSelected(e.target.value)}
+                        className="sort-input"
+                    >
+                        <option value={"Newest"}>Newest</option>
+                        <option value={"Oldest"}>Oldest</option>
+                    </select>
+                </div>
             </div>
         </div>
     );
