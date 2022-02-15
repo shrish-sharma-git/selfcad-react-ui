@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
 .box {
     position: relative;
     width: 165px;
@@ -5,6 +7,10 @@
     padding: 1rem;
     border-radius: 0.5rem;
     margin: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .folded-box {
@@ -31,7 +37,6 @@
   color: #fff;
   background-color: #7EC2EB;
   font-size: 20px;
-  font-weight: bolder;
   display:block;
   height: 50px;
   width: 50px;
@@ -45,4 +50,14 @@
 
   cursor: pointer; 
   border: none;
+}
+
+.more-btn {
+  border: none;
+  background-color: #fff;
+}
+
+.more-ico {
+  font-size: 25px;
+  color: #A1A1A1;
 }

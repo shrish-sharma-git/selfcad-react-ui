@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './jumbotron.css'
 import BellLogo from '../assets/bell-solid.svg';
+import Logo from '../assets/logo.png';
 
 const Jumbotron = () => {
     const [selected, setSelected] = useState("Newest");
@@ -9,8 +10,9 @@ const Jumbotron = () => {
         <div className="jumbotron">
             <div className="nav">
                 <div className="company-name">
-                    <img src="https://pngimage.net/wp-content/uploads/2018/05/example-logo-png-1.png" alt="" width={"100px"} height={"100px"}/>
-                    <span>SelfCAD Projects</span>
+                    <img src={Logo} alt="SelfCAD Logo" width={"50px"} height={"50px"}/>
+                    <span>Self</span><span className='blue-color'>CAD</span>
+                    <span>Projects</span>
                 </div>
                 <div className="user-profile">
                     <span className='user-name'>Jenny Wilson</span>
@@ -21,14 +23,16 @@ const Jumbotron = () => {
                 </div>
             </div>
             <div className="header">
-                <p className='welcome-msg'>Welcome to SelfCAD Editor</p>
+                <p className='welcome-msg'>Welcome to Self<span className='blue-color'>CAD</span> Editor</p>
                 <p>New to 3D modelling?</p>
-                <p>Try out our Interactive Tutorials.</p>
+                <p>Try out our <span className='blue-color'>Interactive Tutorials.</span></p>
             </div>
             <div className="jumbo-content">
                 <div className="search-bar">
                     <input type={"text"} placeholder={"Find Project"} className="search-input"/>
-                    <button className='search-btn'>x</button>
+                    <button className='search-btn'>
+                        <i class="fa fa-search"></i>
+                    </button>
                 </div>
                 <div className="sort-bar">
                     <span>Sort By:</span>

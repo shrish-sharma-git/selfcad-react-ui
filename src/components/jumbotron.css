@@ -11,6 +11,7 @@
 
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
+    background-image: url(../assets/jumbo-img.png);
 }
 
 .company-name {
@@ -21,7 +22,8 @@
     background-color: white;
     
     width: 300px;
-    margin: 30px 0 0 30px;
+    margin: 50px 0 0 50px;
+    padding: 15px;
     
     border-radius: 999px;
 
@@ -90,11 +92,11 @@
 .search-btn {
     border: none;
     border-radius: 99px;
-    width: 25px;
-    height: 25px;
+    width: 32px;
+    height: 32px;
     text-align: center;
 
-    margin-left: -25px;
+    margin-left: -31px;
 }
 
 .sort-bar span {
@@ -106,4 +108,9 @@
     height: 30px;
     padding: 5px;
     margin-left: 10px;
+}
+
+.blue-color {
+    color: #7EC2EB;
+    margin-right: 5px;
 }
