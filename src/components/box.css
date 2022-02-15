@@ -9,7 +9,7 @@
 
 .folded-box {
     border: 1px solid black;
-    background: linear-gradient(312deg, transparent 35px, rgb(255, 255, 255) 0);
+    background: linear-gradient(312deg, transparent 27px, rgb(255, 255, 255) 0);
 }
 
 .folded-box::before {
@@ -19,9 +19,8 @@
   border-top: 1px solid black;
   bottom: 0;
   right: 0;
-  width: 49px;
-  height: 49px;
-  /* background: rgb(177, 177, 21); */
+  width: 39px;
+  height: 39px;
   background: linear-gradient(to top left, transparent 50%, rgb(255, 255, 255) 0);
   border-top-left-radius: 0.5rem;
 }
@@ -43,8 +42,4 @@
 
   cursor: pointer; 
   border: none;
-}
-
-.content {
-  
 }
