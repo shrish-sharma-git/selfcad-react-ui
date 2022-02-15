@@ -7,4 +7,9 @@
     overflow: auto;
 
     justify-items: center;
+
+}
+
+body {
+    background-color: rgb(215,235,246);
 }

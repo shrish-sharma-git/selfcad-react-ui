@@ -6,6 +6,8 @@
     background-color: yellow;
     position: fixed; 
     top: 0;
+
+    z-index: 99;
 }
 
 .company-name {

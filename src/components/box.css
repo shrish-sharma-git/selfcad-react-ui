@@ -1,11 +1,4 @@
 .box {
-    /* padding: 25px;
-    margin: 10px;
-    width: 165px;
-    height: 165px;
-    border: 1px solid black;
-    border-radius: 18px; */
-
     position: relative;
     width: 165px;
     height: 165px;
@@ -17,20 +10,41 @@
 .folded-box {
     border: 1px solid black;
     background: linear-gradient(312deg, transparent 35px, rgb(255, 255, 255) 0);
-  color: #f3f3f3;
 }
 
 .folded-box::before {
   content: "";
   position: absolute;
-  
+  border-left: 1px solid black;
+  border-top: 1px solid black;
   bottom: 0;
   right: 0;
   width: 49px;
   height: 49px;
-  border: 1px solid black;
-
   /* background: rgb(177, 177, 21); */
   background: linear-gradient(to top left, transparent 50%, rgb(255, 255, 255) 0);
   border-top-left-radius: 0.5rem;
+}
+
+.btn-add {
+  padding: 15px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #7EC2EB;
+  font-size: larger;
+  display:block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+
+  position: absolute;
+  bottom: -10%;
+  right: 42%;
+
+  cursor: pointer; 
+  border: none;
+}
+
+.content {
+  
 }
