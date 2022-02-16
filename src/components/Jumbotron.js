@@ -17,7 +17,7 @@ const Jumbotron = () => {
                 <div className="user-profile">
                     <span className='user-name'>Jenny Wilson</span>
 
-                    <img className='bell-icon' src={BellLogo} />
+                    <img className='bell-icon' src={BellLogo} alt="bell icon"/>
                     
                     <img className='user-profile-image' src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="User Profile" width={"40px"} height={"40px"}/>
                 </div>
