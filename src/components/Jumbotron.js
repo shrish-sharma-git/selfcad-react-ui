@@ -19,7 +19,7 @@ const Jumbotron = () => {
 
                     <img className='bell-icon' src={BellLogo} />
                     
-                    <img className='user-profile-image' src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="User" width={"40px"} height={"40px"}/>
+                    <img className='user-profile-image' src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="User Profile" width={"40px"} height={"40px"}/>
                 </div>
             </div>
             <div className="header">
