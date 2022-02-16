@@ -138,6 +138,18 @@
         margin: 35px 0 0 20px;
     }
 
+    .welcome-msg {
+        font-size: 43px;
+    }
+
+    .sub-1 {
+        font-size: 22px;
+    }    
+
+    .sub-2 {
+        font-size: 22px;
+    }    
+
     .jumbo-content {
         justify-content: center;
         flex-direction: column;

@@ -24,8 +24,8 @@ const Jumbotron = () => {
             </div>
             <div className="header">
                 <p className='welcome-msg'>Welcome to Self<span className='blue-color'>CAD</span> Editor</p>
-                <p>New to 3D modelling?</p>
-                <p>Try out our <span className='blue-color'>Interactive Tutorials.</span></p>
+                <p className='sub-1'>New to 3D modelling?</p>
+                <p className='sub-2'>Try out our <span className='blue-color'>Interactive Tutorials.</span></p>
             </div>
             <div className="jumbo-content">
                 <div className="search-bar">
