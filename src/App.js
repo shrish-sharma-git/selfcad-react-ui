@@ -1,6 +1,6 @@
 import ProjectCard from "./components/ProjectCard";
 import Jumbotron from "./components/Jumbotron";
-import './app.css'
+import './App.css'
 import AddProjectCard from "./components/AddProjectCard";
 
 function App() {
