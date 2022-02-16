@@ -29,7 +29,7 @@
   width: 39px;
   height: 39px;
   background: linear-gradient(to top left, transparent 50%, rgb(255, 255, 255) 0);
-  border-top-left-radius: 0.5rem;
+  border-top-left-radius: 0.9rem;
 }
 
 .btn-add {
