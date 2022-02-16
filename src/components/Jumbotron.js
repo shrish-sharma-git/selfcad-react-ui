@@ -31,7 +31,7 @@ const Jumbotron = () => {
                 <div className="search-bar">
                     <input type={"text"} placeholder={"Find Project"} className="search-input"/>
                     <button className='search-btn'>
-                        <i class="fa fa-search"></i>
+                        <i className="fa fa-search"></i>
                     </button>
                 </div>
                 <div className="sort-bar">

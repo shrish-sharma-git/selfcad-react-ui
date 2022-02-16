@@ -2,10 +2,10 @@ import React from 'react'
 
 const AddProjectCard = () => {
     return (  
-        <div className="box folded-box">
-            <span className='content'>Add Project</span>
+        <div className="box folded-box new-project-align">
+            <span className='content'>New Project</span>
             <button className='btn-add'>
-                <i class="fa fa-plus"></i>
+                <i className="fa fa-plus"></i>
             </button>
         </div>
     );

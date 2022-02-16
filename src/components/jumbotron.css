@@ -56,6 +56,7 @@
 .bell-icon {
     width: 20px;
     height: 20px;
+    color: #a1a1a1;
 }
 
 .user-name {
@@ -79,6 +80,7 @@
     justify-content: flex-end;
     gap: 15px;
     margin-top: 70px;
+    margin-left: -100px;
 }
 
 .search-input {
@@ -99,6 +101,10 @@
     margin-left: -31px;
 }
 
+.sort-bar {
+    color: #a1a1a1;
+}
+
 .sort-bar span {
     font-size: 18px;
 }
@@ -113,4 +119,29 @@
 .blue-color {
     color: #7EC2EB;
     margin-right: 5px;
+}
+
+
+/* Responsiveness Handling */
+@media (max-width: 767px) {
+    .company-name {
+        width: 250px;
+        margin: 75px 0 0 20px;
+    }
+
+    .user-name {
+        font-size: 18px;
+        color: #000;
+    }
+
+    .header {
+        margin: 35px 0 0 20px;
+    }
+
+    .jumbo-content {
+        justify-content: center;
+        flex-direction: column;
+        margin: 8px 0 0 0;
+        gap: 8px;
+    }
 }

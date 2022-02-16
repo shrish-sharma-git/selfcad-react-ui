@@ -6,7 +6,7 @@ const ProjectCard = () => {
         <div className="box folded-box">
             <span>Project</span>
             <button className='more-btn'>
-                <i class="fa fa-ellipsis-v more-ico"></i>
+                <i className="fa fa-ellipsis-v more-ico"></i>
             </button>
         </div>
     );

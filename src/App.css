@@ -1,6 +1,6 @@
 .project-section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, 250px);
     
     margin: 520px 120px 0 120px;
 
@@ -12,4 +12,11 @@
 
 body {
     background-color: rgb(215,235,246);
+}
+
+/* Responsiveness Handling */
+@media (max-width: 767px) {
+    .project-section {
+        margin: 520px 0 0 75px;
+    }
 }
